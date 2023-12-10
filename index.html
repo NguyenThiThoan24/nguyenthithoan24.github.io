@@ -27,10 +27,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <title>My Website</title>
+    <title>Wellcome to my Website</title>
 </head>
 
-<body class="slideshow-background">
+<body>
 
     <div id="preloader" class="preloader">
         <div class="loader-status">
@@ -43,26 +43,26 @@
         <div id="top"></div>
 
         <!-- Mobile logo -->
-        <a href="#" class="mobile-logo mobile-logo-light bg-dark">
+        <a href="#" class="mobile-logo mobile-logo-dark bg-white">
             <span>Nguyen Thi Thoan</span>
         </a>
 
         <!-- Navigation toggle -->
-        <button type="button" id="navigation-toggle" class="nav-toggle nav-toggle-light bg-dark">
+        <button type="button" id="navigation-toggle" class="nav-toggle nav-toggle-dark bg-white">
             <span></span>
         </button>
 
         <!-- Site header -->
-        <header class="site-header site-header-light bg-dark">
+        <header class="site-header site-header-dark bg-white">
             <div class="header-inner">
                 <div class="header-brand">
                     <!-- Logo -->
                     <a href="#" class="logo">
                         <span>Nguyen Thi Thoan</span>
-                        <span class="title-letter text-white opacity-10">A</span>
+                        <span class="title-letter">T</span>
                     </a>
                 </div>
-                <div class="nav-divider mb-8"></div>
+                <div class="nav-divider bg-dark mb-5"></div>
                 <nav class="site-nav">
                     <ul id="navigation">
                         <li>
@@ -78,33 +78,30 @@
                             <a href="#portfolio" class="scrollto">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#news" class="scrollto">News</a>
-                        </li>
-                        <li>
                             <a href="#contact" class="scrollto">Contact</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="nav-divider my-8"></div>
+                <div class="nav-divider bg-dark my-5"></div>
                 <nav>
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="#">
+                            <a class="btn btn-sm btn-icon btn-outline-dark border-0 rounded-circle" href="https://www.facebook.com/profile.php?id=100022455615873">
                                 <span class="btn-icon-inner fab fa-facebook-f"></span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="#">
+                            <a class="btn btn-sm btn-icon btn-outline-dark border-0 rounded-circle" href="#">
                                 <span class="btn-icon-inner fab fa-instagram"></span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="#">
+                            <a class="btn btn-sm btn-icon btn-outline-dark border-0 rounded-circle" href="#">
                                 <span class="btn-icon-inner fab fa-twitter"></span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="#">
+                            <a class="btn btn-sm btn-icon btn-outline-dark border-0 rounded-circle" href="#">
                                 <span class="btn-icon-inner fab fa-pinterest"></span>
                             </a>
                         </li>
@@ -112,6 +109,64 @@
                 </nav>
             </div>
         </header>
+
+        <!-- Header overlay -->
+        <div class="header-overlay">
+            <div class="overlay-inner bg-dark opacity-80"></div>
+        </div>
+
+        <!-- Back to top button -->
+        <button type="button" id="backtotop" class="btn btn-primary btn-icon">
+            <span class="btn-icon-inner fas fa-angle-up"></span>
+        </button>
+
+        <!-- Page wrapper -->
+        <div class="page-wrapper">
+            <div id="page-cover" class="page-cover">
+                <div class="page-cover-wrapper-fixed">
+                    <div class="page-cover-bg">
+                        <div class="overlay-inner bg-image-holder bg-cover">
+                            <img src="images/image-1.jpg" alt="background">
+                        </div>
+                        <div class="overlay-inner bg-dark opacity-55"></div>
+                    </div>
+                    <div class="page-cover-wrap">
+
+                        <section id="home" class="d-flex min-vh-100">
+                            <div class="container align-self-center text-white text-center">
+                                <div class="avatar avatar-xxl mb-6">
+                                    <div class="avatar-shape avatar-shape-rounded bg-white mt-n2 mb-n2 mr-n2"></div>
+                                    <img src="images/avatar_small.jpg" alt="" class="avatar-img rounded-circle shadow-light">
+                                </div>
+                                <h1 class="mb-2 mb-lg-3">Nguyen Thi Thoan</h1>
+                                <p class="lead mb-0">Business Man</p>
+                                <span class="cover-letter letter-xl text-white opacity-10">T</span>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div><!--end .page-cover -->
+        </div>
+        <!-- Libs JS -->
+		<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+		<script src="assets/vendor/popper.js/dist/popper.min.js"></script>
+		<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
+		<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/vendor/isotope/dist/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/featherlight/jquery.detect_swipe.js"></script>
+		<script src="assets/vendor/featherlight/featherlight.min.js"></script>
+		<script src="assets/vendor/featherlight/featherlight.gallery.min.js"></script>
+		<script src="assets/vendor/slick/slick.min.js"></script>
+		<script src="assets/vendor/vegas/vegas.min.js"></script>
+		<script src="assets/vendor/typed.js/typed.min.js"></script>
+		<script src="assets/vendor/granim.js/dist/granim.min.js"></script>
+
+		<!-- Theme JS -->
+		<script src="assets/js/main.js"></script>
 </body>
 
 </html>
